@@ -3,7 +3,7 @@
 | Nama | IDR | DISKON
 | --- | --- | --- |
 | Sendinbox V2 Rev 2018 | 150.000 | 0% 
-| Sendinbox Professional | 350.000 | 30% after Discount 30% after buy Sendinbox V2 Rev 2018  
+| Sendinbox Professional | 350.000 | Discount 30% after buy Sendinbox V2 Rev 2018  
 
 | Fitur | Sendinbox V2 Rev 2018 | Professional 
 | --- | --- | --- |
