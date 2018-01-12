@@ -8,16 +8,19 @@
 | Fitur | Sendinbox V2 Rev 2018 | Professional 
 | --- | --- | --- |
 | Remove token Bmarket (Token has been remove) | ✕ |  ✓
-| Encrypt text  | ✕ |  ✓
-| New Header | ✕ |  ✓
-| Validate Email with smtp (anti bounces) | ✕ |  ✓
-| Random text | ✓  |  ✓
+| Encrypt Letter | ✕ |  ✓
+| Extra Headers | ✕ |  ✓
+| Anti Email Bouncing  | ✕ |  ✓
+| Random Text/text number/number | ✓  |  ✓
+| Random Subject | ✓  |  ✓
 | Random From Name/Email | ✓  |  ✓
 | Random Country | ✓  |  ✓
 | Random IP | ✓  |  ✓
 | Random Letter | ✓  |  ✓
 | Random SMTP | ✓  |  ✓
-| Random attachments | ✓  |  ✓
+| Random Attachments | ✓  |  ✓
+| Rotating SMTP | ✓  |  ✓
+| Report Email Delivery  | ✓  |  ✓
 | Lifetime license | ✓  |  ✓
 | Free Update | ✓  |  ✓
 
