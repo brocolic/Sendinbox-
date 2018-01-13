@@ -12,6 +12,7 @@
 | Extra Headers | ✕ |  ✓
 | Anti Email Bouncing  | ✕ |  ✓
 | Random Link Scampage | ✕  |  ✓
+| Random Custom Header (Easy with smtp-config) | ✕  |  ✓
 | Random Text/text number/number | ✓  |  ✓
 | Random Subject | ✓  |  ✓
 | Random From Name/Email | ✓  |  ✓
