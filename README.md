@@ -12,6 +12,7 @@
 | Extra Headers | ✕ |  ✓
 | Anti Email Bouncing  | ✕ |  ✓
 | Random Link Scampage | ✕  |  ✓
+| Random Browser | ✕  |  ✓
 | Random Custom Header (Easy with smtp-config) | ✕  |  ✓
 | Random Text/text number/number | ✓  |  ✓
 | Random Subject | ✓  |  ✓
@@ -21,6 +22,8 @@
 | Random Letter | ✓  |  ✓
 | Random SMTP | ✓  |  ✓
 | Random Attachments | ✓  |  ✓
+| Priority Email  | ✓  |  ✓
+| Rotate SMTP  | ✓  |  ✓
 | Rotating SMTP | ✓  |  ✓
 | Report Email Delivery  | ✓  |  ✓
 | Lifetime license | ✓  |  ✓
