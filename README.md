@@ -28,7 +28,8 @@
 | Report Email Delivery  | ✓  |  ✓
 | Lifetime license | ✓  |  ✓
 | Free Update | ✓  |  ✓
-
+ 
+** Tutorial sudah tersedia di dalam paket ZIP **
 
 Buy item : https://www.bmarket.or.id/itemlist
 
