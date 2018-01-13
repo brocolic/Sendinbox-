@@ -11,6 +11,7 @@
 | Encrypt Letter | ✕ |  ✓
 | Extra Headers | ✕ |  ✓
 | Anti Email Bouncing  | ✕ |  ✓
+| Random Link Scampage | ✕  |  ✓
 | Random Text/text number/number | ✓  |  ✓
 | Random Subject | ✓  |  ✓
 | Random From Name/Email | ✓  |  ✓
