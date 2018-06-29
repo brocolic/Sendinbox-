@@ -3,9 +3,9 @@
 | Nama | IDR | DISKON
 | --- | --- | --- |
 | Sendinbox V2 Rev 2018 | 150.000 | 0% 
-| Sendinbox Professional | 350.000 | Discount 30% after buy Sendinbox V2 Rev 2018  
+| Sendinbox Professional | 500.000 | Discount 30% after buy Sendinbox V2 Rev 2018  
 
-| Fitur | Sendinbox V2 Rev 2018 | Professional 
+| Fitur | Sendinbox V2 Rev 2018 | Professional
 | --- | --- | --- |
 | Remove token Bmarket (Token has been remove) | ✕ |  ✓
 | Encrypt Letter | ✕ |  ✓
