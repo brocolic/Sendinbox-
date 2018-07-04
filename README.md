@@ -2,40 +2,33 @@
 
 | Nama | IDR | DISKON
 | --- | --- | --- |
-| Sendinbox V2 Rev 2018 | 150.000 | 0% 
-| Sendinbox Professional | 500.000 | Discount 30% after buy Sendinbox V2 Rev 2018  
+| Sendinbox Professional | 500.000 | -
 
-| Fitur | Sendinbox V2 Rev 2018 | Professional
-| --- | --- | --- |
-| Remove token Bmarket (Token has been remove) | ✕ |  ✓
-| Encrypt Letter | ✕ |  ✓
-| Extra Headers | ✕ |  ✓
-| Anti Email Bouncing  | ✕ |  ✓
-| Random Link Scampage | ✕  |  ✓
-| GET UPDATE | ✕ |  ✓
-| Random Browser | ✕  |  ✓
-| Random Custom Header (Easy with smtp-config) | ✕  |  ✓
-| Random Text/text number/number | ✓  |  ✓
-| Random Subject | ✓  |  ✓
-| Random From Name/Email | ✓  |  ✓
-| Random Country | ✓  |  ✓
-| Random IP | ✓  |  ✓
-| Random Letter | ✓  |  ✓
-| Random SMTP | ✓  |  ✓
-| Random Attachments | ✓  |  ✓
-| Priority Email  | ✓  |  ✓
-| Rotate SMTP  | ✓  |  ✓
-| Rotating SMTP | ✓  |  ✓
-| Report Email Delivery  | ✓  |  ✓
-| Lifetime license | ✓  |  ✓
-| Free Update | ✓  |  ✓
- 
-** Tutorial sudah tersedia di dalam paket ZIP **
+| Fitur | ---
+| --- | --- |
+| Support windows / linux 
+| Support BCC | ✓
+| Random From name | ✓
+| Random From name | ✓
+| Random From Email | ✓
+| Random Subject | ✓
+| Random Letter | ✓
+| Random Attachments | ✓
+| Random IP | ✓
+| Custom header | ✓
+| Manipulasi teks From name | ✓
+| Manipulasi teks Subject | ✓
+| Manipulasi letter | ✓
+| Multy smtp | ✓
+| Rotate smtp | ✓
+| Alias (https://github.com/radenvodka/Sendinbox-/issues/1) | ✓
+| Free Update | ✓
 
+-----------------------------------------------------------------
 Buy item : https://www.bmarket.or.id/itemlist
 
 Issue or ask : https://github.com/ekasyahwan/Sendinbox-/issues
 
-Bmarket Groups : https://web.facebook.com/groups/140202056680451/
+Bmarket Groups : https://t.me/joinchat/Ck78MRFnx52jQ3YfLr126w
 
 Rate IDR to USD = 14.000
