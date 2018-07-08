@@ -7,7 +7,7 @@
 | Fitur | ---
 | --- | --- |
 | Support windows / linux 
-| Support BCC | ✓
+| Support Send Methode BCC,CC,TO | ✓
 | Random From name | ✓
 | Random From name | ✓
 | Random From Email | ✓
