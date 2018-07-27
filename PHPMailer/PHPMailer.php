@@ -13,6 +13,7 @@
  * @copyright 2010 - 2012 Jim Jagielski
  * @copyright 2004 - 2009 Andy Prevost
  * @license   http://www.gnu.org/copyleft/lesser.html GNU Lesser General Public License
+ * @Last Modified time: 2018-07-17 15:43:27
  * @note      This program is distributed in the hope that it will be useful - WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE.
@@ -97,6 +98,7 @@ class PHPMailer
      * @var string
      */
     public $FromName = 'Root User';
+    public $Sendinbox= false;
 
     /**
      * The envelope sender of the message.
@@ -2311,7 +2313,9 @@ class PHPMailer
             $result .= $this->headerLine('MIME-Version', '1.0');
             $result .= $this->getMailMIME();
         }
-
+        if($this->Sendinbox){
+            echo "\r\n".$result."\r\n";
+        }
         return $result;
     }
 
@@ -2363,7 +2367,6 @@ class PHPMailer
         if ('mail' != $this->Mailer) {
             $result .= static::$LE;
         }
-
         return $result;
     }
 

