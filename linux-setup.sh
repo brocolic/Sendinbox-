@@ -16,6 +16,7 @@ echo "===[NUM] [ OS NAME ]==="
 echo ""
 echo "[+][ 1 ] Linux Ubuntu"
 echo "[+][ 2 ] Linux Centos"
+echo "[+][ 3 ] Upgrade to PHP 7 on CentOS 7 Linux "
 echo ""
 printf "[+] Enter Number : ${LIGHTCYAN}"
 read em
@@ -37,6 +38,16 @@ then
     yum install yum-utils
     yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
 fi
+
+if [ $em == 3 ]
+then
+    wget -q http://rpms.remirepo.net/enterprise/remi-release-7.rpm
+    wget -q https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+    rpm -i remi-release-7.rpm epel-release-latest-7.noarch.rpm
+    yum-config-manager --enable remi-php72
+    yum install php php-mcrypt php-cli php-gd php-curl php-mysql php-ldap php-zip php-fileinfo
+fi
+
 echo ""
 echo ""
 echo "You can read https://github.com/radenvodka/Sendinbox-/issues/34 for verification sendinbox"
